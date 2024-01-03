@@ -5,6 +5,15 @@ TODO
 make gdb into vscode to show DDD of debuggerr ?
 maybe STFW
 
+使用工具也是编程的一部分:
+1. git
+2. build systems
+3. shell
+基本原则:任何感到不爽的时候,一定有一个工具能帮你.
+如果真没有,自己造一个的机会就来了.
+    不太可能是真的.
+    但可能是一份非常好的研究工作
+
 
 
 # build process explain:
@@ -44,4 +53,10 @@ goto AM home and `make html`
 like python doc . llvm doc.** doc gen by source code .**
 
 
-
+# 如何阅读一个可能1000个文件的项目?
+##  如果是一个程序:
+start from main:
+    如何找到main?
+        用IDE的搜索功能.
+            alt+3 main
+## 如果是一个库:
