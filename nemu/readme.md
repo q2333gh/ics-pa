@@ -10,6 +10,8 @@ maybe STFW
 # build process explain:
 不论多么复杂的makefile: 本质是从下至上构建一个程序
 ![Alt text](./pictures/image.png)
+即把.c -> .o  然后层次 link 他们为一个程序.
+
 
 cmd to check build histroy in detail : 
 approach :  
@@ -35,4 +37,11 @@ man gcc essence:
 -D :define a macro **during the compilation process.** So sometimes in vscode cant see some macro.
 -lreadline :  linker flag that instructs the linker to link the readline library with the program. 
 -ldl : ink the dl (dynamic loading)
+
+
+## phylosophy: Doc as code :现代的文档方式,使用Doxygen自动生成Makefile的文档.
+goto AM home and `make html`
+like python doc . llvm doc.** doc gen by source code .**
+
+
 
