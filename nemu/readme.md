@@ -13,10 +13,11 @@ maybe STFW
 
 cmd to check build histroy in detail : 
 approach :  
-man make 
 
--B 
-强制无条件构建所有.
+man make :essence here in this proj: 
+-B  强制无条件构建所有.
+-n  不执行脚本,只是打印
+make -nB
 
 
 

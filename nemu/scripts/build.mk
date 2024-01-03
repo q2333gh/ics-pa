@@ -27,6 +27,7 @@ LDFLAGS := -O2 $(LDFLAGS)
 
 OBJS = $(SRCS:%.c=$(OBJ_DIR)/%.o) $(CXXSRC:%.cc=$(OBJ_DIR)/%.o)
 
+# MOST imprtant cmd in this script. main exec . other just in order to do this:
 # Compilation patterns
 $(OBJ_DIR)/%.o: %.c
 	@echo + CC $<
