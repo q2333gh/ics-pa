@@ -32,5 +32,7 @@ make clean && make -nB  &> make_verbose.log
 
 
 man gcc essence:
--D 
+-D :define a macro **during the compilation process.** So sometimes in vscode cant see some macro.
+-lreadline :  linker flag that instructs the linker to link the readline library with the program. 
+-ldl : ink the dl (dynamic loading)
 
