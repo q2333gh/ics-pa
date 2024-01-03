@@ -47,6 +47,9 @@ man gcc essence:
 -lreadline :  linker flag that instructs the linker to link the readline library with the program. 
 -ldl : ink the dl (dynamic loading)
 
+-wall  :if int a= 0; but never use . give warning. why warning: because other .c file may clash .
+-werror :force above give error compile err.  
+
 
 ## phylosophy: Doc as code :现代的文档方式,使用Doxygen自动生成Makefile的文档.
 goto AM home and `make html`
@@ -60,3 +63,5 @@ start from main:
         用IDE的搜索功能.
             alt+3 main
 ## 如果是一个库:
+
+

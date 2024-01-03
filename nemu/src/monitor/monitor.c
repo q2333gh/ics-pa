@@ -68,6 +68,9 @@ static long load_img() {
   return size;
 }
 
+// static: avoid linking err with same name clash between files.using like
+// namespace .
+// if inline. compiler will determine if need inline. inline means no function call. put the small function into caller function exec space
 static int parse_args(int argc, char *argv[]) {
   const struct option table[] = {
     {"batch"    , no_argument      , NULL, 'b'},
