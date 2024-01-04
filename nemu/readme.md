@@ -5,6 +5,10 @@ TODO
 make gdb into vscode to show DDD of debuggerr ?
 maybe STFW
 
+make run 
+ctrl +D to exit nemu
+
+
 使用工具也是编程的一部分:
 1. git
 2. build systems
