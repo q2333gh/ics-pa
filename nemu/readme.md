@@ -56,12 +56,15 @@ goto AM home and `make html`
 like python doc . llvm doc.** doc gen by source code .**
 
 
-# 如何阅读一个可能1000个文件的项目?
+# CONFIDENCE SKILL :如何阅读一个可能1000个文件的中型项目? very useful and important
 ##  如果是一个程序:
 start from main:
     如何找到main?
         用IDE的搜索功能.
             alt+3 main
+如何在大量代码中找到关键逻辑? 其余的函数只是辅助构造.            
 ## 如果是一个库:
+
+
 
 
